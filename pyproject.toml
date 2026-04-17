@@ -8,10 +8,9 @@ version = "1.0.0"
 description = "XtQuant trading platform Python API"
 requires-python = ">=3.6"
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["xtbson*", "qmttools*"]
-namespaces = false
+[tool.setuptools]
+package-dir = {"xtquant" = "."}
+packages = ["xtquant", "xtquant.xtbson", "xtquant.xtbson.bson36", "xtquant.xtbson.bson37", "xtquant.qmttools"]
 
 [tool.setuptools.package-data]
 "*" = ["*.pyd", "*.dll", "*.ini", "*.log4cxx"]
