@@ -1,0 +1,9 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xtquant"
+version = "1.0.0"
+description = "XtQuant trading platform Python API"
+requires-python = ">=3.6"
