@@ -9,7 +9,7 @@ description = "XtQuant trading platform Python API"
 requires-python = ">=3.6"
 
 [tool.setuptools]
-packages = ["xtquant", "qmttools", "xtbson", "xtbson.bson36", "xtbson.bson37"]
+packages = ["xtquant", "xtquant.xtbson", "xtquant.xtbson.bson36", "xtquant.xtbson.bson37", "qmttools"]
 
 [tool.setuptools.package-data]
 "*" = ["*.pyd", "*.dll", "*.ini", "*.log4cxx"]
